@@ -1,0 +1,14 @@
+compile binary
+    $ make
+
+complage docker image
+    $ make docker-build
+
+Whereabouts binary path:
+    /opt/cni/bin/whereabouts
+
+Whereabouts config path:
+    /etc/cni/net.d/whereabouts.d/whereabouts.conf
+
+log file for cmdAdd and cmdDel
+    on node /usr/local/.state/var-lib-rancher.bind/rke2/agent/containerd/containerd.log

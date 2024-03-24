@@ -70,7 +70,7 @@ func cmdAdd(args *skel.CmdArgs, client *kubernetes.KubernetesIPAM, cniVersion st
 	result.DNS = client.Config.DNS
 	result.Routes = client.Config.Routes
 
-	logging.Debugf("Beginning IPAM for ContainerID: %v", args.ContainerID)
+	logging.Verbosef("Beginning IPAM for ContainerID: %v", args.ContainerID)
 	var newips []net.IPNet
 
 	ctx, cancel := context.WithTimeout(context.Background(), types.AddTimeLimit)

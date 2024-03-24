@@ -1,0 +1,42 @@
+{
+  "Name": "storagenetwork-qlnft",
+  "Type": "whereabouts",
+  "Routes": [],
+  "Addresses": [],
+  "IPRanges": [
+    {
+      "OmitRanges": [],
+      "Range": "172.16.0.0/24",
+      "RangeStart": "172.16.0.0",
+      "RangeEnd": null
+    }
+  ],
+  "OmitRanges": [],
+  "DNS": {
+    "Nameservers": [],
+    "Domain": "",
+    "Search": [],
+    "Options": []
+  },
+  "Range": "",
+  "RangeStart": null,
+  "RangeEnd": null,
+  "GatewayStr": "",
+  "LeaderLeaseDuration": 1500,
+  "LeaderRenewDeadline": 1000,
+  "LeaderRetryPeriod": 500,
+  "LogFile": "",
+  "LogLevel": "",
+  "ReconcilerCronExpression": "30 4 * * *",
+  "OverlappingRanges": true,
+  "SleepForRace": 0,
+  "Gateway": null,
+  "Kubernetes": {
+    "KubeConfigPath": "/etc/cni/net.d/whereabouts.d/whereabouts.kubeconfig",
+    "K8sAPIRoot": ""
+  },
+  "ConfigurationPath": "",
+  "PodName": "instance-manager-e-2300e576f6cffd254ac517b2a63c8a0b",
+  "PodNamespace": "longhorn-system",
+  "NetworkName": ""
+}

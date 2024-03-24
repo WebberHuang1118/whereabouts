@@ -1,0 +1,23 @@
+apiVersion: whereabouts.cni.cncf.io/v1alpha1
+kind: OverlappingRangeIPReservation
+metadata:
+  creationTimestamp: "2024-11-20T01:26:41Z"
+  generation: 1
+  managedFields:
+  - apiVersion: whereabouts.cni.cncf.io/v1alpha1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:spec:
+        .: {}
+        f:containerid: {}
+        f:podref: {}
+    manager: whereabouts
+    operation: Update
+    time: "2024-11-20T01:26:41Z"
+  name: 172.16.0.6
+  namespace: kube-system
+  resourceVersion: "1113003"
+  uid: 8d8093b4-4d48-4769-9d4a-930f220eec56
+spec:
+  containerid: 15948d02408a4d08d9d7ffc92c37efea8b1604bbbca1842a670e5319ac20306a
+  podref: longhorn-system/instance-manager-e-2300e576f6cffd254ac517b2a63c8a0b

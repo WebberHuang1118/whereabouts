@@ -1,0 +1,36 @@
+apiVersion: whereabouts.cni.cncf.io/v1alpha1
+kind: IPPool
+metadata:
+  creationTimestamp: "2024-11-19T07:55:34Z"
+  generation: 137
+  name: 172.16.0.0-24
+  namespace: kube-system
+  resourceVersion: "1113804"
+  uid: d07ce547-e373-402a-b722-ab9891564d70
+spec:
+  allocations:
+    "1":
+      id: 122c29d9049ed64e9419d66894df4eb0f23ae73cc51634c2916ccbc0866fca78
+      podref: longhorn-system/instance-manager-r-18681f9bdde0e399500cfb0a7e137697
+    "2":
+      id: 0826ab4cb753e717e7975de788eb771f33a8275322ca871119a50f4c73644bb8
+      podref: longhorn-system/instance-manager-r-5655a8fc5e8a5b962589bab3e05ec45b
+    "3":
+      id: 1c0bb09a03f8c698e0126db6435a733cd65f00dc6d9e50a1353c19fe51175bc6
+      podref: longhorn-system/instance-manager-e-18681f9bdde0e399500cfb0a7e137697
+    "4":
+      id: 0108d7f1c3d69775846e1b4ef01df38611f682821ffff3ae88a941ec072e66d5
+      podref: longhorn-system/backing-image-manager-36c7-9af9
+    "5":
+      id: 7c4991dd5c0437e843433b9b033fcf99c92ba3d7cbdd1624cfc8b41b4ceb7550
+      podref: longhorn-system/instance-manager-e-5655a8fc5e8a5b962589bab3e05ec45b
+    "6":
+      id: 15948d02408a4d08d9d7ffc92c37efea8b1604bbbca1842a670e5319ac20306a
+      podref: longhorn-system/instance-manager-e-2300e576f6cffd254ac517b2a63c8a0b
+    "7":
+      id: b7e41469101f71405155df9cd852dc49c83108df5a2e0f81d3928ea4026a9b0f
+      podref: longhorn-system/instance-manager-r-2300e576f6cffd254ac517b2a63c8a0b
+    "8":
+      id: a562105838ed405d4470a4d90ede0af1aba97926663783e69b93b7bba150ea0c
+      podref: longhorn-system/backing-image-manager-36c7-6c9e
+  range: 172.16.0.0/24
